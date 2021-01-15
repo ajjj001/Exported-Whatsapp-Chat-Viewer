@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Exported Whatsapp Chat Viewer</title>
+  </head>
+
+  <body>
+    <div class="container sticky-top p-3">
+      <nav class="navbar navbar-custom shadow-sm">
+        <a class="navbar-brand-light" href="index.html">
+          <i class="fa fa-home fa-2x"></i
+        ></a>
+        <label for="inputfile" class="custom-file-upload">
+          <i class="mr-1 fa fa-upload"></i> Upload File
+        </label>
+        <input
+          type="file"
+          class="custom-file-input"
+          id="inputfile"
+          onclick="this.value=null"
+          accept="text/plain"
+        />
+      </nav>
+    </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="myModal"
+      tabindex="-1"
+      role="dialog"
+      aria-labelledby="myModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="myModalLabel">Select Name</h5>
+            <button
+              type="button"
+              class="close"
+              data-dismiss="modal"
+              aria-label="Close"
+            >
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <div class="form-group">
+              <label>Select Your Name:</label>
+              <select class="form-control" id="nameSelect"></select>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn" id="confirmSelection">
+              Submit <i class="ml-1 fa fa-check-circle"></i>
+            </button>
+            <button type="button" class="btn red-button" data-dismiss="modal">
+              Close <i class="ml-1 fa fa-times-circle"></i>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br />
+
+    <div class="container" id="output"></div>
+    <div class="container" id="homepage">
+      <div class="jumbotron">
+        <h1>Exported Whatsapp Chat Viewer</h1>
+        <hr class="my-4" />
+        <h3>How To Use</h3>
+        <ol>
+          <li>Export Chat From Whatsapp</li>
+          <li>Unzip The Zip File</li>
+          <li>
+            Upload The Text File And Follow The Instructions To See The Result
+          </li>
+        </ol>
+        <hr class="my-4" />
+        <label for="inputfile" class="custom-file-upload">
+          <i class="mr-1 fa fa-upload"></i> Upload File
+        </label>
+        <input
+          type="file"
+          class="custom-file-input"
+          id="inputfile"
+          onclick="this.value=null"
+          accept="text/plain"
+        />
+      </div>
+
+      <div class="jumbotron">
+        <h1>Source Code</h1>
+        <hr class="my-4" />
+        <p>The Source Code Can Be Found On Github</p>
+        <a
+          class="navbar-brand-light"
+          href="https://github.com/ajjj001"
+          target="_blank"
+        >
+          <i class="fa fa-github fa-3x"></i
+        ></a>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>
