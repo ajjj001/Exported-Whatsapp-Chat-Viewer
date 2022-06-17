@@ -4,12 +4,12 @@
 
 View Exported Whatsapp Chat On Web. 
 
-This Project Is Hosted On https://ajjj001.github.io
+This Project Is Hosted On https://ajjj001.github.io/Exported-Whatsapp-Chat-Viewer/
 
 
 ## Usage
 
-Visit https://ajjj001.github.io
+Visit https://ajjj001.github.io/Exported-Whatsapp-Chat-Viewer/
 
 Export Chat From Whatsapp
 
